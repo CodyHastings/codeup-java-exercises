@@ -5,6 +5,10 @@ public class HelloWorld {
         System.out.println(myFavoriteNumber);
         String myString = "Dune was great";
         System.out.println(myString);
-
+        double MyNumber = 3.14;
+        System.out.println(MyNumber);
+        int x = 5;
+        System.out.println(++x);
+        System.out.println(x);
     }
 }
