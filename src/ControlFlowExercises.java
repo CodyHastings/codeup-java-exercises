@@ -83,23 +83,28 @@ public class ControlFlowExercises {
         int maxInt = scanner.nextInt();
         System.out.println("\nHere is your table! \n");
         System.out.println("number | squared | cubed \n------ | ------- | ----- ");
-        boolean continbuebool = false;
+        boolean continuebool = true;
         do {
-            for (int i = 0; i <= maxInt; i++){
+            for (int i = 1; i <= maxInt; i++){
                 int squared = i * i;
                 int cubed = i * i * i;
-
                 System.out.format("%-7d| %-8d| %-6d\n", i, squared, cubed);
+            }
 
-                System.out.print("Continue? y/n ");
+            System.out.print("Continue? y/n ");
+            String continuePrompt = scanner.nextLine();
 
-            } String continuePrompt = scanner.nextLine();
-            if (continuePrompt == "y"){
-               boolean continuebool = true;
-            } else{
-                boolean continbuebool = false;
+            if (continuePrompt.equalsIgnoreCase("y")){
+                continuebool = true;
+                System.out.print("What new number would you like to go up to? ");
+                maxInt = scanner.nextInt();
+
+            } else if(continuePrompt.equalsIgnoreCase("n")){
+                 continuebool = false;
             }
         } while(continuebool);
+
+        //Grade Conversion
 
 
 
