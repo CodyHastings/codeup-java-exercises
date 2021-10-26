@@ -79,32 +79,33 @@ public class ControlFlowExercises {
 //            System.out.format("%-7d| %-8d| %-6d\n", i, squared, cubed);
 //        }
 
-        System.out.print("What number would you like to go up to? ");
-        int maxInt = scanner.nextInt();
-        System.out.println("\nHere is your table! \n");
-        System.out.println("number | squared | cubed \n------ | ------- | ----- ");
-        boolean continuebool = true;
-        do {
-            for (int i = 1; i <= maxInt; i++){
-                int squared = i * i;
-                int cubed = i * i * i;
-                System.out.format("%-7d| %-8d| %-6d\n", i, squared, cubed);
-            }
+//        System.out.print("What number would you like to go up to? ");
+//        int maxInt = scanner.nextInt();
+//        System.out.println("\nHere is your table! \n");
+//        System.out.println("number | squared | cubed \n------ | ------- | ----- ");
+//        boolean continuebool = true;
+//        do {
+//            for (int i = 1; i <= maxInt; i++){
+//                int squared = i * i;
+//                int cubed = i * i * i;
+//                System.out.format("%-7d| %-8d| %-6d\n", i, squared, cubed);
+//            }
+//
+//            System.out.print("Continue? y/n ");
+//            String continuePrompt = scanner.nextLine();
+//
+//            if (continuePrompt.equalsIgnoreCase("y")){
+//                continuebool = true;
+//                System.out.print("What new number would you like to go up to? ");
+//                maxInt = scanner.nextInt();
+//
+//            } else if(continuePrompt.equalsIgnoreCase("n")){
+//                 continuebool = false;
+//            }
+//        } while(continuebool);
 
-            System.out.print("Continue? y/n ");
-            String continuePrompt = scanner.nextLine();
 
-            if (continuePrompt.equalsIgnoreCase("y")){
-                continuebool = true;
-                System.out.print("What new number would you like to go up to? ");
-                maxInt = scanner.nextInt();
 
-            } else if(continuePrompt.equalsIgnoreCase("n")){
-                 continuebool = false;
-            }
-        } while(continuebool);
-
-        //Grade Conversion
 
 
 
