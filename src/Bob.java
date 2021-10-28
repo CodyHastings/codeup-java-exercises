@@ -12,13 +12,9 @@ public class Bob {
 
             System.out.println("Sure.....");
 
-        }
-
-        else if(userInput.contains("!")){
+        } else if (userInput.contains("!")){
             System.out.println("Whoa! Chill out!");
-        }
-
-        else if(userInput.contains(" ")){
+        } else if (userInput.contains(" ")){
             System.out.println("Fine be that way");
         } else {
             System.out.println("Whatever..");
