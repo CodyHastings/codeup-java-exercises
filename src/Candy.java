@@ -25,7 +25,7 @@ public class Candy {
     public static void printCandy(String name, String size){
 
         System.out.printf("Ahhh, a %s! I see that you got the %s of it. Sounds good! :)", name, size);
-//“Ahhh, a [name]! I see that you got the [size] of it. Sounds good! :)”
+
     }
 
     public static void main(String[] args) {
