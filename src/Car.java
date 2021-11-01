@@ -20,9 +20,17 @@ public class Car {
 
 
     }
+
+
 //    Overload Constructor for only year make and model
     public Car(int year,String make, String model){
         this(year, make, model, 0, "acolor", false);
+    }
+
+    public void OpenAllDoors(){
+        for (int i = 0; i < this.doorCount; i++){
+            System.out.println("Opening door " + i);
+        }
     }
 
     public static void main(String[] args) {
@@ -34,6 +42,8 @@ public class Car {
         Car badCar = new Car(2014, "ford","truck" );
 
         System.out.printf("a bad car would be a %s %s %s %s %s \n", badCar.year, badCar.make, badCar.model, badCar.doorCount, badCar.color);
+
+        myCar.OpenAllDoors();
     }
 
     
