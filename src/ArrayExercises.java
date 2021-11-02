@@ -41,11 +41,11 @@ public class ArrayExercises {
         Person person2 = new Person("Jim", "Jimmerson");
         Person person3 = new Person("Jan", "Jannerson");
 
-        String person1FullName = person1.firstName + " " + person1.lastName;
-        String person2FullName = person2.firstName + " " + person2.lastName;
-        String person3FullName = person3.firstName + " " + person3.lastName;
-
-        String[] persons = {person1FullName, person2FullName, person3FullName};
+//        String person1FullName = person1.firstName + " " + person1.lastName;
+//        String person2FullName = person2.firstName + " " + person2.lastName;
+//        String person3FullName = person3.firstName + " " + person3.lastName;
+//
+//        String[] persons = {person1FullName, person2FullName, person3FullName};
         Person[] personsObjArr = {person1, person2, person3};
 
 
