@@ -3,20 +3,15 @@ public class Person {
     public String firstName;
     public String lastName;
 
+    public Person(){}
 
-    public static void main(String[] args) {
-
-
-
-
-    }
-public Person(String firstName, String lastName){
+    public Person(String firstName, String lastName){
 
         this.firstName = firstName;
         this.lastName = lastName;
 
 
-}
+    }
 
 //    Create a static method named addPerson.
 //    It should accept an array of Person objects, as well as a single person object to add to the passed array.
