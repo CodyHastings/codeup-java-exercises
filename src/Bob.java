@@ -14,7 +14,7 @@ public class Bob {
 
         } else if (userInput.contains("!")){
             System.out.println("Whoa! Chill out!");
-        } else if (userInput.contains(" ")){
+        } else if (userInput.contains(" ") || userInput.isBlank()){
             System.out.println("Fine be that way");
         } else {
             System.out.println("Whatever..");
