@@ -25,7 +25,7 @@ public class ArrayExercises {
         for (Person row : biggerPersonsArray) {
 
 
-            System.out.println(row.firstName);
+//            System.out.println(row.name);
         }
 
         return biggerPersonsArray;
@@ -37,9 +37,9 @@ public class ArrayExercises {
         int[] numbers = {1, 2, 3, 4, 5};
 //        System.out.println(Arrays.toString(numbers));
 
-        Person person1 = new Person("Bob", "Bobberson");
-        Person person2 = new Person("Jim", "Jimmerson");
-        Person person3 = new Person("Jan", "Jannerson");
+        Person person1 = new Person("Bob");
+        Person person2 = new Person("Jim");
+        Person person3 = new Person("Jan");
 
 //        String person1FullName = person1.firstName + " " + person1.lastName;
 //        String person2FullName = person2.firstName + " " + person2.lastName;
