@@ -1,5 +1,4 @@
 package util;
-
 import java.util.Scanner;
 
 public class Input {
@@ -25,7 +24,7 @@ public class Input {
         System.out.println("Enter an integer between " + min + " and " + max);
         int userInt = scanner.nextInt();
     if(userInt >= min && userInt <= max){
-        return userInt;
+
     } else {
         getInt(min, max);
     }
@@ -44,19 +43,11 @@ public class Input {
         System.out.println("Enter a number with a decimal between " + min + " and " + max);
         double userDouble = scanner.nextDouble();
         if(userDouble >= min && userDouble <= max){
-            return userDouble;
+
         } else {
             getDouble(min, max);
         }
         return userDouble;
     }
 
-
-    //TODO
-//    String getString() *
-//    boolean yesNo() *
-//    int getInt(int min, int max)
-//    int getInt()
-//    double getDouble(double min, double max)
-//    double getDouble()
 }

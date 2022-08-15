@@ -11,6 +11,7 @@ public class InputTest {
         }
 
         newInput.getInt(1,10);
+
         newInput.getDouble(1.0, 10.5);
 
     }
