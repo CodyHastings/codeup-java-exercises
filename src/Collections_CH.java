@@ -17,6 +17,7 @@ public class Collections_CH {
         numbers.add(20);
         numbers.add(4, 42);
 
+
 //        System.out.println(numbers.size());
 //        System.out.println(numbers.get(2));
 //
