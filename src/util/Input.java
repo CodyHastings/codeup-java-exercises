@@ -32,12 +32,32 @@ public class Input {
     }
 
     public int getInt(){
-        return scanner.nextInt();
+        try{
+            return Integer.parseInt(getString());
+        } catch (NumberFormatException e){
+            System.out.println("Given input cannot be parsed as an int");
+            System.out.println("Enter an integer");
+//			e.printStackTrace();
+            return getInt();
+        }
     }
 
-    public double getDouble(){
-        return scanner.nextDouble();
+//    public int getInt(){
+//        return scanner.nextInt();
+//    }
+
+public double getDouble(){
+    try{
+        return Double.parseDouble(getString());
+    } catch (NumberFormatException e){
+        System.out.println("Given input cannot be parsed as an double");
+        e.printStackTrace();
+        return getDouble();
     }
+}
+//    public double getDouble(){
+//        return scanner.nextDouble();
+//    }
 
     public double getDouble(double min, double max){
         System.out.println("Enter a number with a decimal between " + min + " and " + max);
